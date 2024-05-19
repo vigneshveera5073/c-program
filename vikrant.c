@@ -2,12 +2,10 @@
 
 int main()
 {
-    int num1,num2,num3;
-    float average,add;
-    printf("enter a first number : ");
-    scanf("%d%d%d",&num1,&num2,&num3);
-    add=num1+num2+num3;
-    average=add/3;
-    printf("you have enter this number : %f",average);
+    int num1,num2,add;
+    printf("enter any two numbers : ");
+    scanf("%d%d",&num1,&num2);
+    add=num1+num2;
+    printf("result is : %d",add);
     return 0;
 }
