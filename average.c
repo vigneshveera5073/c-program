@@ -2,6 +2,7 @@
 
 int main()
 {
+    //average of three numbers program!//
     int num1,num2,num3;
     float average,add;
     printf("enter any three numbers : ");
