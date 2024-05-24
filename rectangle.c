@@ -2,9 +2,9 @@
 
 int main(){
     //rectangle area find program!//
-    int l,b,a;
+    int length,base,area;
     printf("Enter a rectangle length and base : ");
-    scanf("%d%d",&l,&b);
-    a=l*b;
-    printf("Answer is : %d",a);
+    scanf("%d%d",&length,&base);
+    area=length*base;
+    printf("Answer is : %d",area);
 }
